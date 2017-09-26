@@ -3,10 +3,47 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
-	font-family: 'Roboto', sans-serif !important;
+	font-family: 'Roboto', sans-serif;
+	color: #fdfdfd;
 	background-image: url('background.png');
 }
 
+a {
+	color: #3a86de;
+}
+
+a:hover {
+	color: #1965bd;
+}
+
+.list-group-item {
+	background-color: #414141;
+}
+
+.btn-outline-dark {
+	color: #fdfdfd;
+}
+
+.nav-item a {
+	color: #fdfdfd;
+}
+
+.nav-item a:hover {
+	color: #fdfdfd;
+}
+
 .tab-pane {
-	font-size: 3rem;
+	font-size: 2rem;
+}
+
+.card {
+	background-color: transparent;
+}
+
+.jumbotron {
+	background-color: #555555;
+}
+
+.modal-content {
+	background-color: #555555;
 }

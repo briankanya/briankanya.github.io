@@ -19,17 +19,11 @@
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" data-toggle="tab" href="#about" role="tab">
-					<i class="fa fa-question-circle-o" aria-hidden="true"></i>
+					<i class="fa fa-male aria-hidden="true"></i>
 					About
 				</a>
 			</li>
-			<li>
-				<a class="nav-link" data-toggle="tab" href="#hobbies" role="tab">
-					<i class="fa fa-male" aria-hidden="true"></i>
-					Hobbies
-				</a>
-			</li>
-			<li>
+			<li class="nav-item">
 				<a class="nav-link" data-toggle="tab" href="#contact" role="tab">
 					<i class="fa fa-envelope" aria-hidden="true"></i>
 					Contact
@@ -37,16 +31,47 @@
 			</li>
 		</ul>
 		<div class="tab-content text-center">
-			<div class="tab-pane fade show active card-body" id="home" role="tabpanel">
-				<p class="card-text">
-					Welcome to Brian's website
-				</p>
+			<div class="tab-pane active card-body" id="home" role="tabpanel">
+				<div class="card-img">
+					<img src="welcome.jpg" alt="Welcome image">
+				</div>
 			</div>
 			<div class="tab-pane fade card-body" id="about" role="tabpanel">
-				My name is Brian. I am 20 years old. I am a Year Up young professional.
-			</div>
-			<div class="tab-pane fade card-body" id="hobbies" role="tabpanel">
-				My hobbies are development, playing basketball, and biking.
+				<div class="jumbotron">
+					<h1 class="display-3">
+						Brian Kanya
+					</h1>
+					<p class="lead">
+						I am a student, son, and Year Up young professional with a variety of hobbies and interests.
+					</p>
+					<ul class="list-group">
+						<li class="list-group-item">
+							<button type="button" class="btn btn-lg btn-outline-dark" data-toggle="modal" data-target="#creativeWriting">
+								Creative Writing
+							</button>
+						</li>
+						<li class="list-group-item">
+							<button type="button" class="btn btn-lg btn-outline-dark" data-toggle="modal" data-target="#eating">
+								Eating
+							</button>
+						</li>
+						<li class="list-group-item">
+							<button type="button" class="btn btn-lg btn-outline-dark" data-toggle="modal" data-target="#programming">
+								Programming
+							</button>
+						</li>
+						<li class="list-group-item">
+							<button type="button" class="btn btn-lg btn-outline-dark" data-toggle="modal" data-target="#biking">
+								Biking
+							</button>
+						</li>
+						<li class="list-group-item">
+							<button type="button" class="btn btn-lg btn-outline-dark" data-toggle="modal" data-target="#reading">
+								Reading
+							</button>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<div class="tab-pane fade card-body" id="contact" role="tabpanel">
 				<address>
@@ -54,9 +79,88 @@
   				</address>
 			</div>
 		</div>
+		<div class="modal fade" id="creativeWriting" tabindex="-1" role="dialog" aria-labelledby="creatingWritingLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="creativeWritingLabel">
+							Creative Writing
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fa fa-times"></span>
+						</button>
+					</div>
+					<div class="modal-body">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="eating" tabindex="0" role="dialog" aria-labelledby="eatingLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="eatingLabel">
+							Eating
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fa fa-times"></span>
+						</button>
+					</div>
+					<div class="modal-body">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="programming" tabindex="1" role="dialog" aria-labelledby="programmingLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="programmingLabel">
+							Programming
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fa fa-times"></span>
+						</button>
+					</div>
+					<div class="modal-body">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="biking" tabindex="2" role="dialog" aria-labelledby="bikingLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="bikingLabel">
+							Biking
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fa fa-times"></span>
+						</button>
+					</div>
+					<div class="modal-body">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="reading" tabindex="3" role="dialog" aria-labelledby="readingLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="readingLabel">
+							Reading
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fa fa-times"></span>
+						</button>
+					</div>
+					<div class="modal-body">
+					</div>
+				</div>
+			</div>
+		</div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-		<script src="script.js"></script>
 	</body>
 </html>
