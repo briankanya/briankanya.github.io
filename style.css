@@ -1,0 +1,12 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+	font-family: 'Roboto', sans-serif !important;
+	background-image: url('background.png');
+}
+
+.tab-pane {
+	font-size: 3rem;
+}
