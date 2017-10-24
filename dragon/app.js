@@ -9,7 +9,7 @@ var app = new PIXI.Application(settings);
 $("body").append(app.view).addClass("rounded");
 
 var textStyle = new PIXI.TextStyle({
-	fontFamily: sans-serif,
+	fontFamily: 'sans-serif',
 	fontSize: 36,
 	dropShadow: true,
 	dropShadowColor: '#000000',
