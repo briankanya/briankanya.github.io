@@ -10,7 +10,7 @@ $("body").append(app.view);
 
 var dragon = PIXI.Sprite.fromImage('./dragon.png');
 dragon.anchor.set(0.5);
-dragon.x = app.renderer.width - app.renderer.width / 5;
+dragon.x = app.renderer.width - app.renderer.width / 4.5;
 dragon.y = app.renderer.height / 2;
 
 var hero = PIXI.Sprite.fromImage('./hero.png');
