@@ -1,18 +1,18 @@
 var settings = {
 	width: 800,
 	height: 600,
-	backgroundColor: 0x262626
+	backgroundColor: 0x1099bb
 };
 
 var app = new PIXI.Application(settings);
 
-$("body").append(app.view);
+$("body").append(app.view).addClass("rounded");
 
 var textStyle = new PIXI.TextStyle({
-	fontFamily: 'Roboto',
+	fontFamily: sans-serif,
 	fontSize: 36,
 	dropShadow: true,
-	droShadowColor: '#000000',
+	dropShadowColor: '#000000',
 	dropShadowBlur: 4,
 	dropShadowAngle: Math.PI / 6,
 	dropShaowDistance: 6
