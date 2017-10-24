@@ -24,7 +24,7 @@ messageText.y = app.renderer.height - app.renderer.height / 10;
 
 var dragon = PIXI.Sprite.fromImage('./dragon.png');
 dragon.anchor.set(0.5);
-dragon.x = app.renderer.width - app.renderer.width / 5;
+dragon.x = app.renderer.width - app.renderer.width / 3.5;
 dragon.y = app.renderer.height / 2;
 dragon.interactive = true;
 dragon.buttonMode = true;
